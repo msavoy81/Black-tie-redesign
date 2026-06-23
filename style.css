@@ -115,6 +115,7 @@ nav.scrolled { background: rgba(11,11,12,0.95); padding: 14px 6%; border-bottom:
 .services { padding: 110px 0; background: var(--black); }
 .service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap: 26px; }
 .s-card {
+  display: block; text-decoration: none; color: inherit;
   background: var(--charcoal); border: 1px solid var(--border); padding: 38px 30px;
   border-radius: 3px; transition: all 0.35s ease;
 }
